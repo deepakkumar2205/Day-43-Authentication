@@ -6,7 +6,7 @@ import { Home } from './Components/Home';
 import { Phone } from './Components/Phone';
 import { ProtectedRoute } from './Components/ProtectedRoute';
 import API from './url';
-import Signup from './Components/signup/Signup.jsx';
+import Signup from './Components/Signup/Signup.jsx';
 import Login from './Components/LoginFolder/LoginFile.jsx';
 import { Emailverify } from './Components/mailverification/Emailverify';
 import Header from './Components/Header';
