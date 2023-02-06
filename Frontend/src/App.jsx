@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import { Routes , Route , Link ,useNavigate, useLocation} from 'react-router-dom' ;
-import { About } from './components/About';
-import { Home } from './components/Home';
-import { Phone } from './components/Phone';
-import { ProtectedRoute } from './components/ProtectedRoute';
+import { About } from './Components/About';
+import { Home } from './Components/Home';
+import { Phone } from './Components/Phone';
+import { ProtectedRoute } from './Components/ProtectedRoute';
 import API from './url';
-import Signup from './components/signup/Signup.jsx';
-import Login from './components/LoginFolder/LoginFile.jsx';
-import { Emailverify } from './components/mailverification/Emailverify';
-import Header from './components/Header';
-import { ResetPassword } from './components/resetPassword/ResetPassword';
-import { ResetPassPage } from './components/ResetPassPage/ResetPassPage';
+import Signup from './Components/signup/Signup.jsx';
+import Login from './Components/LoginFolder/LoginFile.jsx';
+import { Emailverify } from './Components/mailverification/Emailverify';
+import Header from './Components/Header';
+import { ResetPassword } from './Components/resetPassword/ResetPassword';
+import { ResetPassPage } from './Components/ResetPassPage/ResetPassPage';
 
 function App() {
   const [mobile , setMobile] = useState([]);
